@@ -1,0 +1,752 @@
+[
+  {
+    "order_id": "US-2024-000001",
+    "order_date": "2022-11-23",
+    "category": "Furniture",
+    "sub_category": "Bookcases",
+    "quantity": 1,
+    "sales": 195.03,
+    "profit": 21.9,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single item transaction with positive profit."
+    }
+  },
+  {
+    "order_id": "US-2024-000002",
+    "order_date": "2024-07-29",
+    "category": "Office Supplies",
+    "sub_category": "Labels",
+    "quantity": 1,
+    "sales": 4.48,
+    "profit": 0.6,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single item transaction with positive profit."
+    }
+  },
+  {
+    "order_id": "US-2024-000003",
+    "order_date": "2022-06-13",
+    "category": "Technology",
+    "sub_category": "Machines",
+    "quantity": 3,
+    "sales": 3109.22,
+    "profit": 746.11,
+    "discount": 0.2,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "The transaction involves a small quantity with a reasonable profit margin."
+    }
+  },
+  {
+    "order_id": "US-2024-000004",
+    "order_date": "2022-05-27",
+    "category": "Office Supplies",
+    "sub_category": "Fasteners",
+    "quantity": 2,
+    "sales": 15.05,
+    "profit": 2.49,
+    "discount": 0.15,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Small quantity and positive profit indicate a typical retail transaction."
+    }
+  },
+  {
+    "order_id": "US-2024-000005",
+    "order_date": "2023-04-15",
+    "category": "Furniture",
+    "sub_category": "Furnishings",
+    "quantity": 5,
+    "sales": 214.51,
+    "profit": 29.43,
+    "discount": 0.15,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "The transaction involves a small quantity with a reasonable profit margin."
+    }
+  },
+  {
+    "order_id": "US-2024-000006",
+    "order_date": "2023-06-27",
+    "category": "Technology",
+    "sub_category": "Phones",
+    "quantity": 1,
+    "sales": 58.56,
+    "profit": -23.54,
+    "discount": 0.8,
+    "llm_classification": {
+      "category": "loss_making",
+      "confidence": 0.95,
+      "reason": "High discount rate (80%) leading to negative profit."
+    }
+  },
+  {
+    "order_id": "US-2024-000007",
+    "order_date": "2022-04-07",
+    "category": "Furniture",
+    "sub_category": "Tables",
+    "quantity": 2,
+    "sales": 110.98,
+    "profit": -45.04,
+    "discount": 0.8,
+    "llm_classification": {
+      "category": "error",
+      "confidence": 0.0,
+      "reason": "Classification failed after 3 attempts: 'choices'"
+    }
+  },
+  {
+    "order_id": "US-2024-000008",
+    "order_date": "2022-01-24",
+    "category": "Technology",
+    "sub_category": "Machines",
+    "quantity": 2,
+    "sales": 1426.55,
+    "profit": -677.85,
+    "discount": 0.5,
+    "llm_classification": {
+      "category": "loss_making",
+      "confidence": 0.95,
+      "reason": "The transaction has a deeply negative profit due to a high discount rate."
+    }
+  },
+  {
+    "order_id": "US-2024-000009",
+    "order_date": "2024-10-22",
+    "category": "Technology",
+    "sub_category": "Copiers",
+    "quantity": 1,
+    "sales": 777.78,
+    "profit": 90.08,
+    "discount": 0.2,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single item transaction with a reasonable profit margin."
+    }
+  },
+  {
+    "order_id": "US-2024-000010",
+    "order_date": "2022-01-02",
+    "category": "Office Supplies",
+    "sub_category": "Envelopes",
+    "quantity": 1,
+    "sales": 4.71,
+    "profit": -0.01,
+    "discount": 0.3,
+    "llm_classification": {
+      "category": "loss_making",
+      "confidence": 0.95,
+      "reason": "The profit is slightly negative due to the discount applied."
+    }
+  },
+  {
+    "order_id": "US-2024-000011",
+    "order_date": "2024-09-22",
+    "category": "Technology",
+    "sub_category": "Phones",
+    "quantity": 2,
+    "sales": 460.84,
+    "profit": 87.63,
+    "discount": 0.15,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "This is a typical retail transaction with a reasonable quantity and positive profit."
+    }
+  },
+  {
+    "order_id": "US-2024-000012",
+    "order_date": "2023-02-16",
+    "category": "Technology",
+    "sub_category": "Phones",
+    "quantity": 1,
+    "sales": 239.88,
+    "profit": 53.87,
+    "discount": 0.1,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single item transaction with positive profit and a reasonable discount."
+    }
+  },
+  {
+    "order_id": "US-2024-000013",
+    "order_date": "2023-03-28",
+    "category": "Furniture",
+    "sub_category": "Bookcases",
+    "quantity": 1,
+    "sales": 229.07,
+    "profit": 14.94,
+    "discount": 0.15,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single item transaction with a reasonable profit margin."
+    }
+  },
+  {
+    "order_id": "US-2024-000014",
+    "order_date": "2022-09-28",
+    "category": "Furniture",
+    "sub_category": "Bookcases",
+    "quantity": -3,
+    "sales": -439.96,
+    "profit": -35.2,
+    "discount": 0.3,
+    "llm_classification": {
+      "category": "return",
+      "confidence": 0.95,
+      "reason": "The transaction has a negative quantity and negative sales, indicating a return."
+    }
+  },
+  {
+    "order_id": "US-2024-000015",
+    "order_date": "2022-07-21",
+    "category": "Furniture",
+    "sub_category": "Chairs",
+    "quantity": 2,
+    "sales": 265.62,
+    "profit": 27.26,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "This is a typical small retail transaction with a positive profit."
+    }
+  },
+  {
+    "order_id": "US-2024-000016",
+    "order_date": "2024-06-26",
+    "category": "Furniture",
+    "sub_category": "Chairs",
+    "quantity": 2,
+    "sales": 434.01,
+    "profit": 65.6,
+    "discount": 0.1,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "This is a typical small retail transaction with a reasonable profit margin."
+    }
+  },
+  {
+    "order_id": "US-2024-000017",
+    "order_date": "2024-02-16",
+    "category": "Office Supplies",
+    "sub_category": "Supplies",
+    "quantity": 3,
+    "sales": 23.72,
+    "profit": 4.34,
+    "discount": 0.1,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "This is a typical small retail transaction with a positive profit and a reasonable discount."
+    }
+  },
+  {
+    "order_id": "US-2024-000018",
+    "order_date": "2022-05-05",
+    "category": "Technology",
+    "sub_category": "Copiers",
+    "quantity": 1,
+    "sales": 866.56,
+    "profit": 183.02,
+    "discount": 0.1,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single item transaction with positive profit and reasonable discount."
+    }
+  },
+  {
+    "order_id": "US-2024-000019",
+    "order_date": "2023-04-27",
+    "category": "Technology",
+    "sub_category": "Accessories",
+    "quantity": 3,
+    "sales": 157.28,
+    "profit": 23.18,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "error",
+      "confidence": 0.0,
+      "reason": "Classification failed after 3 attempts: 'choices'"
+    }
+  },
+  {
+    "order_id": "US-2024-000020",
+    "order_date": "2023-02-23",
+    "category": "Technology",
+    "sub_category": "Machines",
+    "quantity": 2,
+    "sales": 1026.99,
+    "profit": -3.3,
+    "discount": 0.4,
+    "llm_classification": {
+      "category": "loss_making",
+      "confidence": 0.95,
+      "reason": "The transaction has a deeply negative profit due to a high discount rate."
+    }
+  },
+  {
+    "order_id": "US-2024-000021",
+    "order_date": "2024-07-27",
+    "category": "Office Supplies",
+    "sub_category": "Art",
+    "quantity": 1,
+    "sales": 14.4,
+    "profit": -0.21,
+    "discount": 0.3,
+    "llm_classification": {
+      "category": "loss_making",
+      "confidence": 0.95,
+      "reason": "The transaction has a negative profit due to a high discount."
+    }
+  },
+  {
+    "order_id": "US-2024-000022",
+    "order_date": "2024-12-19",
+    "category": "Furniture",
+    "sub_category": "Chairs",
+    "quantity": 1,
+    "sales": 84.21,
+    "profit": -1.08,
+    "discount": 0.4,
+    "llm_classification": {
+      "category": "loss_making",
+      "confidence": 0.95,
+      "reason": "The transaction has a deeply negative profit due to a high discount rate."
+    }
+  },
+  {
+    "order_id": "US-2024-000023",
+    "order_date": "2023-07-12",
+    "category": "Technology",
+    "sub_category": "Machines",
+    "quantity": 5,
+    "sales": 3979.88,
+    "profit": 790.83,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "The transaction involves a reasonable quantity and has a positive profit, typical of a normal retail transaction."
+    }
+  },
+  {
+    "order_id": "US-2024-000024",
+    "order_date": "2024-05-17",
+    "category": "Office Supplies",
+    "sub_category": "Binders",
+    "quantity": 2,
+    "sales": 23.3,
+    "profit": 2.49,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Small quantity and positive profit indicate a typical retail transaction."
+    }
+  },
+  {
+    "order_id": "US-2024-000025",
+    "order_date": "2022-11-02",
+    "category": "Furniture",
+    "sub_category": "Bookcases",
+    "quantity": 4,
+    "sales": 528.32,
+    "profit": -2.67,
+    "discount": 0.3,
+    "llm_classification": {
+      "category": "error",
+      "confidence": 0.0,
+      "reason": "Classification failed after 3 attempts: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions"
+    }
+  },
+  {
+    "order_id": "US-2024-000026",
+    "order_date": "2023-05-27",
+    "category": "Technology",
+    "sub_category": "Copiers",
+    "quantity": 5,
+    "sales": 6499.22,
+    "profit": 1604.41,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "bulk_order",
+      "confidence": 0.85,
+      "reason": "High quantity (5 units) and high sales amount indicate a bulk order."
+    }
+  },
+  {
+    "order_id": "US-2024-000027",
+    "order_date": "2024-04-24",
+    "category": "Technology",
+    "sub_category": "Copiers",
+    "quantity": 1,
+    "sales": 945.9,
+    "profit": 263.82,
+    "discount": 0.2,
+    "llm_classification": {
+      "category": "error",
+      "confidence": 0.0,
+      "reason": "Classification failed after 3 attempts: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions"
+    }
+  },
+  {
+    "order_id": "US-2024-000028",
+    "order_date": "2023-04-01",
+    "category": "Furniture",
+    "sub_category": "Chairs",
+    "quantity": 1,
+    "sales": 256.45,
+    "profit": 8.41,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "error",
+      "confidence": 0.0,
+      "reason": "Classification failed after 3 attempts: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions"
+    }
+  },
+  {
+    "order_id": "US-2024-000029",
+    "order_date": "2023-12-21",
+    "category": "Furniture",
+    "sub_category": "Furnishings",
+    "quantity": 1,
+    "sales": 40.12,
+    "profit": -14.17,
+    "discount": 0.5,
+    "llm_classification": {
+      "category": "error",
+      "confidence": 0.0,
+      "reason": "Classification failed after 3 attempts: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions"
+    }
+  },
+  {
+    "order_id": "US-2024-000030",
+    "order_date": "2024-06-08",
+    "category": "Technology",
+    "sub_category": "Accessories",
+    "quantity": 1,
+    "sales": 28.31,
+    "profit": 6.89,
+    "discount": 0.2,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single-item transaction with a reasonable profit margin."
+    }
+  },
+  {
+    "order_id": "US-2024-000031",
+    "order_date": "2024-11-30",
+    "category": "Office Supplies",
+    "sub_category": "Art",
+    "quantity": 1,
+    "sales": 13.72,
+    "profit": 1.76,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single item transaction with positive profit."
+    }
+  },
+  {
+    "order_id": "US-2024-000032",
+    "order_date": "2023-08-29",
+    "category": "Technology",
+    "sub_category": "Copiers",
+    "quantity": 2,
+    "sales": 1283.53,
+    "profit": 220.66,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "error",
+      "confidence": 0.0,
+      "reason": "Classification failed after 3 attempts: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions"
+    }
+  },
+  {
+    "order_id": "US-2024-000033",
+    "order_date": "2023-03-07",
+    "category": "Office Supplies",
+    "sub_category": "Storage",
+    "quantity": 4,
+    "sales": 147.66,
+    "profit": -66.03,
+    "discount": 0.5,
+    "llm_classification": {
+      "category": "error",
+      "confidence": 0.0,
+      "reason": "Classification failed after 3 attempts: 'choices'"
+    }
+  },
+  {
+    "order_id": "US-2024-000034",
+    "order_date": "2022-06-23",
+    "category": "Furniture",
+    "sub_category": "Furnishings",
+    "quantity": 1,
+    "sales": 23.64,
+    "profit": 2.77,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single item transaction with positive profit."
+    }
+  },
+  {
+    "order_id": "US-2024-000035",
+    "order_date": "2022-05-30",
+    "category": "Technology",
+    "sub_category": "Phones",
+    "quantity": 2,
+    "sales": 460.62,
+    "profit": 90.77,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "This is a typical small retail transaction with a positive profit."
+    }
+  },
+  {
+    "order_id": "US-2024-000036",
+    "order_date": "2024-05-20",
+    "category": "Technology",
+    "sub_category": "Copiers",
+    "quantity": 5,
+    "sales": 3890.49,
+    "profit": 923.6,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "bulk_order",
+      "confidence": 0.85,
+      "reason": "High quantity (5 units) and high sales amount ($3890.49) for a technology item."
+    }
+  },
+  {
+    "order_id": "US-2024-000037",
+    "order_date": "2023-10-12",
+    "category": "Office Supplies",
+    "sub_category": "Binders",
+    "quantity": 3,
+    "sales": 43.62,
+    "profit": 7.32,
+    "discount": 0.1,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Small quantity with a reasonable profit margin."
+    }
+  },
+  {
+    "order_id": "US-2024-000038",
+    "order_date": "2023-07-22",
+    "category": "Technology",
+    "sub_category": "Machines",
+    "quantity": 1,
+    "sales": 1400.96,
+    "profit": 302.66,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single item transaction with positive profit."
+    }
+  },
+  {
+    "order_id": "US-2024-000039",
+    "order_date": "2023-04-19",
+    "category": "Office Supplies",
+    "sub_category": "Paper",
+    "quantity": 1,
+    "sales": 16.39,
+    "profit": 4.22,
+    "discount": 0.1,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single item transaction with positive profit and a reasonable discount."
+    }
+  },
+  {
+    "order_id": "US-2024-000040",
+    "order_date": "2022-02-10",
+    "category": "Office Supplies",
+    "sub_category": "Paper",
+    "quantity": 2,
+    "sales": 40.08,
+    "profit": 8.13,
+    "discount": 0.2,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Small quantity with a reasonable profit margin."
+    }
+  },
+  {
+    "order_id": "US-2024-000041",
+    "order_date": "2023-03-26",
+    "category": "Technology",
+    "sub_category": "Phones",
+    "quantity": 3,
+    "sales": 77.98,
+    "profit": -0.31,
+    "discount": 0.3,
+    "llm_classification": {
+      "category": "loss_making",
+      "confidence": 0.95,
+      "reason": "The transaction has a negative profit due to a high discount."
+    }
+  },
+  {
+    "order_id": "US-2024-000042",
+    "order_date": "2024-12-29",
+    "category": "Technology",
+    "sub_category": "Phones",
+    "quantity": 1,
+    "sales": 400.27,
+    "profit": 96.82,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "data_error",
+      "confidence": 0.95,
+      "reason": "Sales amount is unusually high for a single unit, suggesting a data entry error."
+    }
+  },
+  {
+    "order_id": "US-2024-000043",
+    "order_date": "2024-07-20",
+    "category": "Office Supplies",
+    "sub_category": "Fasteners",
+    "quantity": 3,
+    "sales": 21.44,
+    "profit": 2.6,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Small quantity and positive profit indicate a typical retail transaction."
+    }
+  },
+  {
+    "order_id": "US-2024-000044",
+    "order_date": "2023-04-05",
+    "category": "Furniture",
+    "sub_category": "Chairs",
+    "quantity": 1,
+    "sales": 183.81,
+    "profit": 16.48,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single item transaction with positive profit."
+    }
+  },
+  {
+    "order_id": "US-2024-000045",
+    "order_date": "2022-08-23",
+    "category": "Technology",
+    "sub_category": "Accessories",
+    "quantity": 1,
+    "sales": 56.34,
+    "profit": 9.61,
+    "discount": 0.1,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single item transaction with a reasonable profit margin."
+    }
+  },
+  {
+    "order_id": "US-2024-000046",
+    "order_date": "2024-02-08",
+    "category": "Technology",
+    "sub_category": "Copiers",
+    "quantity": 5,
+    "sales": 4866.2,
+    "profit": 1223.36,
+    "discount": 0.15,
+    "llm_classification": {
+      "category": "bulk_order",
+      "confidence": 0.85,
+      "reason": "High quantity (5 units) and high sales amount, typical for a bulk order in the Technology category."
+    }
+  },
+  {
+    "order_id": "US-2024-000047",
+    "order_date": "2022-03-26",
+    "category": "Technology",
+    "sub_category": "Machines",
+    "quantity": 2,
+    "sales": 3032.46,
+    "profit": 619.06,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "This is a standard retail transaction with a reasonable quantity and positive profit."
+    }
+  },
+  {
+    "order_id": "US-2024-000048",
+    "order_date": "2024-07-30",
+    "category": "Technology",
+    "sub_category": "Phones",
+    "quantity": 2,
+    "sales": 111.68,
+    "profit": 24.62,
+    "discount": 0.0,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "This is a typical small retail transaction with a positive profit."
+    }
+  },
+  {
+    "order_id": "US-2024-000049",
+    "order_date": "2022-06-27",
+    "category": "Technology",
+    "sub_category": "Phones",
+    "quantity": 1,
+    "sales": 149.14,
+    "profit": 37.28,
+    "discount": 0.1,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "Single-item transaction with positive profit and a reasonable discount."
+    }
+  },
+  {
+    "order_id": "US-2024-000050",
+    "order_date": "2023-06-14",
+    "category": "Furniture",
+    "sub_category": "Chairs",
+    "quantity": 2,
+    "sales": 419.56,
+    "profit": 50.72,
+    "discount": 0.2,
+    "llm_classification": {
+      "category": "normal",
+      "confidence": 0.95,
+      "reason": "This is a typical retail transaction with a reasonable quantity and positive profit."
+    }
+  }
+]
